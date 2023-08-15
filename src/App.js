@@ -1,29 +1,9 @@
-import { GlobalStyle } from "./GlobalStyle";
-import { Gallery } from "./Components/Gallery";
-import { ToDoList } from "./Components/ToDoList";
-import Test from "./Components/Test";
-import Avatar from "./Components/Avatar";
+// import Gallery from "./Components/Gallery";
 
-function Card({ children }) {
-  return <div className="card">{children}</div>;
-}
-
-export const App = () => {
+export function App() {
   return (
-    <div>
-      <GlobalStyle />
-      <Gallery />
-      <ToDoList />
-      <Test />
-      <Card>
-      <Avatar
-        size={100}
-        person={{ 
-          name: 'Katsuko Saruhashi',
-          imageId: 'YfeOqp2'
-        }}
-      />
-    </Card>
-    </div>
-  );
-};
+  <div>
+    <h2>Hellloi</h2>
+  </div>
+  )
+}
